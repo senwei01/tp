@@ -314,7 +314,7 @@ public class ParserUtil {
         requireNonNull(clientTags);
         final List<ClientTag> clientTagList = new ArrayList<>();
         for (String clientTag: clientTags) {
-            clientTagList.add(parseClientTag(clientTag));
+            clientTagList.add(parseClientTag(clientTag.toUpperCase()));
         }
         return clientTagList;
     }
