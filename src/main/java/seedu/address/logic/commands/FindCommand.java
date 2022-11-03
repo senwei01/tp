@@ -36,8 +36,8 @@ public class FindCommand extends Command {
             + "Examples: " + COMMAND_WORD + " " + PREFIX_NAME.getPrefix() + " alice bob charlie\n"
             + COMMAND_WORD + " " + PREFIX_RISKTAG.getPrefix() + " high low\n"
             + COMMAND_WORD + " " + PREFIX_CLIENTTAG.getPrefix() + "POTENTIAL \n"
-            + COMMAND_WORD + " " + PREFIX_PLANTAG.getPrefix() + " savings plan"
-            + COMMAND_WORD + " " + PREFIX_PHONE.getPrefix() + " 912345678"
+            + COMMAND_WORD + " " + PREFIX_PLANTAG.getPrefix() + " savings plan \n"
+            + COMMAND_WORD + " " + PREFIX_PHONE.getPrefix() + " 912345678 \n"
             + COMMAND_WORD + " " + PREFIX_INCOME.getPrefix() + " >1000";
 
     private final List<FindPredicate> predicates;
