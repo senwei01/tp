@@ -10,7 +10,7 @@ Financial Advisor Planner is a desktop client management application used for fi
 Given below are my contributions to the project.
 
 - ### Code contributed: [RepoSense Link](https://nus-cs2103-ay2223s1.github.io/tp-dashboard/?search=&sort=groupTitle&sortWithin=title&timeframe=commit&mergegroup=&groupSelect=groupByRepos&breakdown=true&checkedFileTypes=docs~functional-code~test-code~other&since=2022-09-16&tabOpen=true&tabType=authorship&tabAuthor=senwei01&tabRepo=AY2223S1-CS2103T-W09-2%2Ftp%5Bmaster%5D&authorshipIsMergeGroup=false&authorshipFileTypes=docs~functional-code~test-code&authorshipIsBinaryFileTypeChecked=false&authorshipIsIgnoredFilesChecked=false)
-- ### Feature: Added the `sort` feature.
+- ### Feature: Implemented the `sort` feature.
   - What it does: The `sort` feature allows user to navigate and manage their contacts easily and efficiently.
   - Currently, there are 6 keywords that we can `sort` by:
     - `appt`: sorts the clients by appointment dates.
