@@ -13,12 +13,12 @@ Given below are my contributions to the project.
 - ### Feature: Added the `sort` feature.
   - What it does: The `sort` feature allows user to navigate and manage their contacts easily and efficiently.
   - Currently, there are 6 keywords that we can `sort` by:
-    - `Appointment`: sorts the clients by appointment dates.
-    - `ClientTag` : sorts the clients by whether they are a potential or current client.
-    - `Income` : sorts the client by their income.
-    - `Monthly` : sorts the client by their monthly contribution.
-    - `Name` : sorts the client by alphabetical order.
-    - `RiskTag` : sorts the client by their risk appetite.
+    - `appt`: sorts the clients by appointment dates.
+    - `client` : sorts the clients by whether they are a potential or current client.
+    - `income` : sorts the client by their income.
+    - `monhtly` : sorts the client by their monthly contribution.
+    - `name` : sorts the client by alphabetical order.
+    - `risk` : sorts the client by their risk appetite.
   - Justification: FAs require a method to identify contacts based on a given keyword, for example they may want to know who are the clients with higher income so that they can better suggest an investment plan.
 - ### Enhancements implemented: Enhanced searching by investment plan, normal tags and risk tags for `find` command.
   - I was the first one who implemented this enhancement, so I had to ensure OOP was done well so my teammates that were enhancing this `find` command further could just follow my structure and modify it to the given condition.
